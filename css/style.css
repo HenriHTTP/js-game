@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+body{ 
+    background: url(../img/fundo.gif) no-repeat;
+    background-size:100% 100%;
+}
+@font-face {
+    font-family: space;
+    src: url(../font/spaceboy/SPACEBOY.TTF);
+}
+.main-title{ 
+
+    max-width: 900px;
+    margin:50px auto; 
+    margin-top: 100px;
+}
+.main-title h2 { 
+
+    font-size: 4em;
+    color: rgb(39, 27, 27);   
+    text-align: center;
+    font-family: space;
+    padding: 20px;
+   
+}
+.button-request-game { 
+
+    max-width: 900px;
+    margin: 50px auto;
+
+}
+.button-request-game button{ 
+    display: block;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    color: rgb(15, 12, 12);
+    background-color: rgb(221, 221, 221);
+    font-size: 2em;
+    font-family: space;
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.button-request-game button:hover{ 
+
+    width: 330px;
+    font-family: space;
+    opacity: 0.9;
+
+   
+}
+.select-mode-game {   
+
+    max-width: 900px;
+    margin: 50px auto;
+}
+.select-mode-game  option{ 
+    display: block;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    color: rgb(26, 26, 26);
+    background-color: rgb(221, 221, 221);
+    font-size: 1em;
+    font-family: space;
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#game-mode{ 
+    display: block;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    color: rgb(15, 12, 12);
+    background-color: rgb(221, 221, 221);
+    font-size: 2em;
+    font-family: space;
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#game-mode:hover{ 
+    
+    width: 330px;
+    height: 70px;
+    opacity: 0.9;
+
+}
+.button-request-sound{
+    max-width: 900px;
+    margin: 50px auto;
+}
+.button-request-sound button{ 
+    display: block;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    color: rgb(15, 12, 12);
+    background-color: rgb(221, 221, 221);
+    font-size: 2em;
+    font-family: space;
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.button-request-sound  button:hover{ 
+
+    width: 330px;
+    font-family: space;
+    opacity: 0.9;
+
+   
+}
+
+
+
