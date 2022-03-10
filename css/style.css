@@ -7,7 +7,7 @@
 
 body{ 
     background: url(../img/fundo.gif) no-repeat;
-    background-size:100% 100%;
+    background-size:100%;
 }
 @font-face {
     font-family: space;
@@ -40,7 +40,7 @@ body{
     height: 70px;
     text-align: center;
     color: rgb(15, 12, 12);
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(221, 221, 221); 
     font-size: 2em;
     font-family: space;
     border: solid black;
@@ -55,6 +55,13 @@ body{
     opacity: 0.9;
 
    
+}
+.button-request-game a{ 
+   text-decoration: none;
+   font-family: space;
+   font-size: 1em;
+   color: rgb(15, 12, 12);
+
 }
 .select-mode-game {   
 
